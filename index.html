@@ -2,14 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Run Buddy</title>
-  </head>
-  <body>
-        <h1>RUN BUDDY</h1>
-    What We Do What You Do Your Trainers Reach Out
-  </body>
-  <header>
+   
+</head>
+    
+    <header>
     <h1>RUN BUDDY</h1>
+    
+    <nav>
+        <ul>
+            <li>
+                <a href="#what-we-do">What We Do</a>
+            </li>
+            <li>
+                <a href="#What-you-do">What You Do</a>
+            </li>
+            <li>
+                <a href="#your-trainers">Your Trainers</a>
+            </li>
+            <li>
+            <a href="#reach-out">Reach Out</a>
+            </li> 
+        </ul>
+    </nav>
   </header>
   
   <!-- hero/jumbotron -->
@@ -19,6 +35,27 @@
   <!-- "what we do" section -->
   <section>
     <h2>What We Do</h2>
+    <section>
+        <div>
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+        </div>
+    </section>
+    <form>
+        <label for="name">Enter full name:</label>
+        <input type="text" placeholder="Your Name" name="name" id="name" />
+        <label for="email">Enter email address:</label>
+        <input type="text" placeholder="Email Address" name="email" id="email" />
+        <lable for="phone">Enter a telephone number:</lable>
+        <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+        <p>
+            Have you worked out with a trainer before?
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trianer-yes">Yes</label>
+            <input type="radio" name="trainer-confirm" id="trainer-no" />
+            <label for="trainer-no">No</label>
+        </p>
+    </form>
   </section>
   
   <!-- "what you do" section -->
@@ -35,6 +72,10 @@
   <section>
     <h2>Reach Out</h2>
   </section>
+  <div>
+      <a href="#">Read Our Privacy Policy</a><br />
+      &copy; 2019 Run Buddy, Inc.
+  </div>
   
   <!-- footer -->
   <footer>
